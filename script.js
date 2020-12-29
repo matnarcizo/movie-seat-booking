@@ -1,4 +1,4 @@
-const container = document.querySelector('.container')
+const seatContainer = document.querySelector('.seat-container')
 const seats = document.querySelectorAll('.seat')
 const count = document.getElementById('count')
 const total = document.getElementById('total')
@@ -38,7 +38,7 @@ function loadLocalStorage () {
   updateSelectedCount()
 }
 
-container.addEventListener('click', (e) => {
+seatContainer.addEventListener('click', (e) => {
   const { classList } = e.target
 
   if (classList.contains('seat') && !classList.contains('occupied')) {

@@ -1,0 +1,23 @@
+{
+  "name": "movie-seat-booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "sass": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matnarcizo/movie-seat-booking.git"
+  },
+  "author": "matnarcizo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matnarcizo/movie-seat-booking/issues"
+  },
+  "homepage": "https://github.com/matnarcizo/movie-seat-booking#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
